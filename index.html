@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Exemplo aplicativo React</title>
+     <!-- Adicionar o React. -->
+<!-- Nota: ao fazer o deploy, substitua "development.js" por "production.min.js". -->
+    <script src="https://unpkg.com/react@17/umd/react.production.min.js" crossorigin></script> 
+    <script src="https://unpkg.com/react-dom@17/umd/react-dom.production.min.js" crossorigin></script>
+    <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+    <h1 id="title" class="title">Locadora</h1>
+
+    <div id="NavBar" class="containerNavBar">
+      <div id="Lançamentos"></div>
+      <div id="Ação"></div>
+      <div id="Ficção cientifica"></div>
+    </div>
+
+    <div id="app"></div>
+
+    <h2 id="Lançamento">Lançamentos</h2>
+    <div class="containerCartaz"> 
+      <div id="img1"></div>
+      <div id="img2"></div>
+      <div id="img3"></div>
+      <div id="img4"></div>
+      <div id="img5"></div>
+      <div id="img6"></div>
+    </div>
+
+    <h2 id="A1">Filmes de Ação</h2>
+    <div class="containerCartaz"> 
+      <div id="imgA1"></div>
+      <div id="imgA2"></div>
+      <div id="imgA3"></div>
+      <div id="imgA4"></div>
+      <div id="imgA5"></div>
+      <div id="imgA6"></div>
+    </div>
+
+    <h2 id="F1">Ficção Científica</h2>
+    <div class="containerCartaz"> 
+      <div id="imgF1"></div>
+      <div id="imgF2"></div>
+      <div id="imgF3"></div>
+      <div id="imgF4"></div>
+      <div id="imgF5"></div>
+      <div id="imgF6"></div>
+    </div>
+
+    <div class="footer">
+      <div>
+      <div id="multa"></div>
+      <div id="btnContato" class="button2"></div>
+      <div>
+        <button id="scrollTopBtn">Voltar para o Início</button>
+      </div>
+      
+      </div>
+    </div>
+<!-- Adicione nosso componente React. -->
+    <script type="text/babel" src="script.js"></script>
+</body>
+</html>
